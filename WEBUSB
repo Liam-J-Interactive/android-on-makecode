@@ -1,0 +1,6 @@
+myButton.addEventListener("click", async () => {
+  await navigator.usb.requestDevice({
+    filters: [{ vendorId: 0x1234, productId: 0x5678 }],
+  });
+  chrome.runtime.sendMessage("newDevice");
+});                                                                                                                                                                                                                      Use Google chrome and download the extenison to allow webusb pairing
