@@ -1,1 +1,1 @@
-# android-on-makecode
+# android-on-makecode                                                                                                                                                                                                   USE WEBUSB To Allow pairing to connect android phone
